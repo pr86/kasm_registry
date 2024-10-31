@@ -1,0 +1,9 @@
+workspaces:
+  - name: Custom OSINT Ubuntu
+    image: ghcr.io/pr86/custom-ubuntu-osint:latest
+    category: "OSINT Tools"
+    description: "A custom OSINT Ubuntu image with pre-installed tools."
+    restrictions:
+      cpu: 2
+      memory: 2048
+      storage: 5
